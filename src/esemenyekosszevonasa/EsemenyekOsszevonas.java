@@ -19,8 +19,10 @@ public class EsemenyekOsszevonas extends javax.swing.JFrame {
     public EsemenyekOsszevonas() {
         initComponents();
         osszeg = 0;
-        jTextField1.setText(osszeg +" Ft");
+        frissit();
     }
+
+   
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
@@ -99,9 +101,11 @@ public class EsemenyekOsszevonas extends javax.swing.JFrame {
             osszeg -= 200;
         }
         
-        jTextField1.setText(osszeg +" Ft");
+        frissit();
     }//GEN-LAST:event_osszesito
-
+ private void frissit() {
+        jTextField1.setText(osszeg +" Ft");
+    }
     /**
      * @param args the command line arguments
      */
