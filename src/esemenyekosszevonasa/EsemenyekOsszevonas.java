@@ -18,6 +18,8 @@ public class EsemenyekOsszevonas extends javax.swing.JFrame {
     int osszeg;
     public EsemenyekOsszevonas() {
         initComponents();
+        osszeg = 0;
+        jTextField1.setText(osszeg +" Ft");
     }
     @SuppressWarnings("unchecked")
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
